@@ -20,10 +20,15 @@ Schedule tweet and thread as many as you want. This script will check if schedul
 - Edit tweet.json.
 	- Check sample_tweet_and_thread.json for learning how to format.
 	- Either text or image can be omitted for any post as exemplified in sample_tweet_and_thread.json.
+	- Image size can't be more than 5 MB
 	- Line breaks can be inserted in the tweet with the escape sequeence \n.
 - Now, your tweeting workflow is ready. You can manually trigger it...
 - Or set a run schedule for it to follow.
 	- Go to line 8 and 9 of .github/workflows/main.yml. Delete the # symbol at the start of the line and set your run frequency of choice.
+
+#### Important !!!
+Time Zone used in this script is Asia/Dhaka (UTC/GMT +6).
+You can change Time Zone from main.py on lines number 18 and 22 
 
 #### Give a Star ⭐ it helps you.
 
